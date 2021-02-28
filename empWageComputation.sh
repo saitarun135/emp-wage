@@ -1,5 +1,4 @@
-#!/bin/bash -x 
-
+#! /bin/bash -x
 
 IS_PART_TIME=1;
 IS_FULL_TIME=2;
@@ -43,3 +42,4 @@ do
 totalSalary=$( calcDailyWage $totalWorkHours )
 
 echo "Daily Wage " ${empDailyWage[@]}
+echo "All Keys " ${!empDailyWage[@]}
